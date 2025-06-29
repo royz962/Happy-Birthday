@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <title>Happy Birthday!!! :)</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <!-- My Style -->
+  <link rel="stylesheet" href="./style/main.css" />
+</head>
+<body>
+  <audio class="song" loop autoplay>
+        <source src="./music/hbd.mpeg">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+ <div class="container">
+ 	 <div class="one">
+		<h1>Chúc Mừng Sinh Nhật Trúc Thùy! <br> 
+		<button id="nextBtn">Bất Ngờ X2</button></h1>
+    
+			<canvas id="birthday"></canvas>
+
+	</div>
+</div>
+<div class="flipbook" id="page2" style="display: none;">
+    <div class="hard">Một Hành Trình Được Ghi Lại Bằng Ánh Nhìn Và Nụ Cười <small>~ Trúc Thùy</small></div>
+    <div class="hard"></div>
+    <div>
+      <small>Ký ức lưu giữ bằng hình ảnh,<br> cảm xúc đọng lại bằng thời gian.</small>
+      <small>2024–2025</small>
+    </div>
+    <div>
+      <img src="img/dalac1.jpg" alt="" />
+      <small> Đà Lạc </small>
+    </div>
+    <div>
+      <img src="img/comnuocgichua.jpg" alt="" />
+      <small> Cơm Nước Gì Chưa </small>
+    </div>
+    <div>
+      <img src="img/vinhdoclap.jpg" alt="" />
+      <small> Vinh Độc Lập </small>
+    </div>
+    <div>
+      <img src="img/dalac2.jpg" alt="" />
+      <small> Đà Lạc </small>
+    </div>
+    <div>
+      <img src="img/thailan.jpg" alt="" />
+      <small> Thái Lan </small>
+    </div>
+    <div>
+      <img src="img/thailan2.jpg" alt="" />
+      <small> Thái Lan </small>
+    </div>
+    <div>
+      <img src="img/thailan3.jpg" alt="" />
+      <small> Thái Lan </small>
+    </div>
+    <div>
+      <img src="img/thailan4.jpg" alt="" />
+      <small> Thái Lan </small>
+    </div>
+    <div>
+      <img src="img/thailan5.jpg" alt="" />
+      <small> Thái Lan </small>
+    </div>
+    <div>
+      <img src="img/thailan6.jpg" alt="" />
+      <small> Thái Lan </small>
+    </div>
+    <div>
+      <img src="img/vinhhy.jpg" alt="" />
+      <small> Cha-Am Beach </small>
+    </div>
+    <div>
+      <img src="img/vinhhy2.jpg" alt="" />
+      <small> Cha-Am Beach </small>
+    </div>
+    <div>
+      <img src="img/vinhhy3.jpg" alt="" />
+      <small> Vĩnh Hy </small>
+    </div>
+    <div>
+      <img src="img/phanthiet.jpg" alt="" />
+      <small> Phan Thiết </small>
+    </div>
+     <div>
+      <img src="img/phanthiet2.jpg" alt="" />
+      <small> Phan Thiết </small>
+    </div>
+     <div>
+      <img src="img/phanthiet3.jpg" alt="" />
+      <small> Phan Thiết </small>
+    </div>
+    <div>
+      <img src="img/hppd.jpg" alt="" />
+      <small> HAPPY BIRTHDAY  </small>
+    </div>
+    <div>
+      <img src="img/hppd2.jpg" alt="" />
+      <small> HAPPY BIRTHDAY  </small>
+    </div>
+    <div class="hard"></div>
+    <div class="hard">Mãi Cười Tươi Em Nhé</div>
+  </div>
+<canvas id="birthday"></canvas>
+</body>
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="application/javascript" src="./script/main.js"></script>
+    <script src="jquery.js"></script>
+    <script src="turn.js"></script>
+<script>
+    $(".flipbook").turn();
+</script>
+
+</html>
