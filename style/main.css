@@ -86,8 +86,14 @@ h1 {
 }
 
 .flipbook {
-    width: 1000px;
-    height: 600px;
+ width: 100%;
+  max-width: 1000px;
+  aspect-ratio: 5/3;
+  height: auto !important;
+  margin: auto;
+  overflow: hidden !important;
+  transform: scale(1);
+  transform-origin: top center;
 }
 
 .flipbook .hard {
